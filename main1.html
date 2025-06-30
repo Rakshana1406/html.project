@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>maincourse1</title>
+</head>
+<h2 style="color: blueviolet;" >Ingredients</h2>
+        <ul>
+            <h3>For the Pasta:</h3><br>
+			250g pasta (penne, spaghetti, or fettuccine)
+			4 cups water
+			1 teaspoon salt
+
+			<h3>For the Sauce:</h3><br>
+
+			1 tablespoon butter
+			1 tablespoon olive oil
+			4 cloves garlic (minced)
+			1 cup heavy cream (or milk for a lighter version)
+			½ cup parmesan cheese (grated)
+			½ teaspoon black pepper
+			½ teaspoon salt
+			½ teaspoon red chili flakes (optional, for spice)
+			1 teaspoon Italian seasoning
+			2 tablespoons fresh parsley (chopped, for garnish)
+
+        </ul>
+    
+        <h2  style="color: blueviolet;">Instructions</h2>
+        <ol>
+            <h3>Step 1: Cook the Pasta</h3><br>
+
+			Boil water in a large pot. Add salt and pasta.
+			Cook as per package instructions (about 8-10 minutes) until al dente.
+			Drain and set aside, reserving ½ cup of pasta water.
+
+			<h3>Step 2: Prepare the Creamy Sauce</h3><br>
+
+			Heat butter and olive oil in a pan over medium heat.
+			Add minced garlic and sauté until fragrant (about 30 seconds).
+			Pour in heavy cream and stir well.
+			Add parmesan cheese, black pepper, salt, red chili flakes, and Italian seasoning. Stir continuously until smooth.
+
+			<h3>Step 3: Combine & Serve</h3><br>
+
+			Add the cooked pasta to the sauce and toss well to coat.
+			If the sauce is too thick, add some reserved pasta water to adjust consistency.
+			Garnish with fresh parsley and serve hot!
+        </ol>
+    </section>
+    <style>
+    table{
+        border-collapse: collapse;
+        }
+        tr:hover
+        {
+        border-bottom: 2px solid mediumturquoise;
+        }
+        table,th,td{
+        border:2px solid black;
+        border-color: brown;
+        border-style: groove ;    
+        } 
+        table{
+        border-spacing: 10 px;
+        }
+        th,td{
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 20px; 
+        padding-bottom: 20px ;     
+        }
+        </style>
+
+    <section class="nutrition">
+        <h2 style="color: blueviolet;">Nutrition Facts</h2>
+        <table>
+            <tr>
+                <th>Nutrients Name</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>450kcal</td>
+                <tr>
+                <td>Protein</td>
+                <td>12g</td>
+                </tr>
+                <tr>
+                <td>Fat</td>
+                <td>20g</td>
+                </tr>
+				<tr>
+                <td>Sodium</td>
+                <td>450mg</td>
+                </tr>
+				<tr>
+                <td>Cholesterol</td>
+                <td>40mg</td>
+                </tr>
+                <tr>
+                <td>Carbohydrate</td>
+                <td>55g</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+<button onclick="popup.showModal()">Order Now</button>
+<dialog id="popup">
+    <h2>Your Order </h2>
+    <p style="color:red">Will be ready soon</p>
+    <button onclick="popup.close()">Close</button>
+</dialog>	
+</body>
+</html>

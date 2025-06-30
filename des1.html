@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dessert1</title>
+</head>
+<h2 style="color: blueviolet;" >Ingredients</h2>
+        <ul>
+			<li>1/2 cup (115g) unsalted butter, melted<li>
+			<li>1 cup (200g) granulated sugar<li>
+			<li>2 large eggs<li>
+			<li>1 teaspoon vanilla extract<li>
+			<li>1/3 cup (40g) unsweetened cocoa powder<li>
+			<li>1/2 cup (65g) all-purpose flour<li>
+			<li>1/4 teaspoon salt<li>
+			<li>1/4 teaspoon baking powder<li>
+			<li>1/2 cup (90g) chocolate chips (optional)<li>
+			<li>1/2 cup (60g) chopped walnuts or pecans (optional)<li>
+
+        </ul>
+    
+        <h2  style="color: blueviolet;">Instructions</h2>
+        <ol>
+			<li>Preheat the oven to 350°F (175°C). Grease an 8x8-inch (20x20 cm) baking pan or line it with parchment paper.</li>
+			<li>Mix wet ingredients: In a bowl, whisk together melted butter, sugar, eggs, and vanilla extract until smooth.</li>
+			<li>Add dry ingredients: Sift in cocoa powder, flour, salt, and baking powder. Stir gently until combined.</li>
+			<li>Add mix-ins (optional): Fold in chocolate chips and nuts if using.</li>
+			<li>Bake: Pour the batter into the prepared pan and spread evenly. Bake for 20-25 minutes or until a toothpick inserted in the center comes out with a few moist crumbs.</li>
+			<li>Cool & serve: Let the brownies cool in the pan for at least 10 minutes before slicing into squares.</li>
+        </ol>
+    </section>
+    <style>
+    table{
+        border-collapse: collapse;
+        }
+        tr:hover
+        {
+        border-bottom: 2px solid mediumturquoise;
+        }
+        table,th,td{
+        border:2px solid black;
+        border-color: brown;
+        border-style: groove ;    
+        } 
+        table{
+        border-spacing: 10 px;
+        }
+        th,td{
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 20px; 
+        padding-bottom: 20px ;     
+        }
+        </style>
+
+    <section class="nutrition">
+        <h2 style="color: blueviolet;">Nutrition Facts</h2>
+        <table>
+            <tr>
+                <th>Nutrients Name</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>200kcal</td>
+                <tr>
+                <td>Protein</td>
+                <td>10g</td>
+                </tr>
+                <tr>
+                <td>Fat</td>
+                <td>10g</td>
+                </tr>
+				<tr>
+                <td>Sodium</td>
+                <td>50mg</td>
+                </tr>
+				<tr>
+                <td>Sugar</td>
+                <td>18g</td>
+                </tr>
+                <tr>
+                <td>Carbohydrate</td>
+                <td>27g</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+<button onclick="popup.showModal()">Order Now</button>
+<dialog id="popup">
+    <h2>Your Order </h2>
+    <p style="color:red">Will be ready soon</p>
+    <button onclick="popup.close()">Close</button>
+</dialog>	
+</body>
+</html>

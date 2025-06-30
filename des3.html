@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dessert3</title>
+</head>
+<h2 style="color: blueviolet;" >Ingredients</h2>
+        <ul>
+            <li>2 cups (250g) all-purpose flour</li>
+			<li>2 tablespoons granulated sugar</li>
+			<li>1 tablespoon baking powder</li>
+			<li>1/2 teaspoon salt</li>
+			<li>2 large eggs</li>
+			<li>1 3/4 cups (420ml) milk</li>
+			<li>1/2 cup (115g) unsalted butter, melted</li>
+			<li>1 teaspoon vanilla extract</li>
+        </ul>
+    
+        <h2  style="color: blueviolet;">Instructions</h2>
+        <ol>
+            <li>Preheat the waffle iron according to the manufacturer’s instructions.</li>
+			<li>Mix dry ingredients: In a large bowl, whisk together flour, sugar, baking powder, and salt.</li>
+			<li>Prepare wet ingredients: In another bowl, beat the eggs, then add milk, melted butter, and vanilla extract. Mix well.</li>
+			<li>Combine the mixtures: Pour the wet ingredients into the dry ingredients and stir gently until just combined (do not overmix).</li>
+			<li>Cook the waffles: Grease the waffle iron lightly, then pour the batter into the waffle maker and cook according to the instructions (usually 3-5 minutes) until golden brown.</li>
+			<li>Serve & enjoy: Serve warm with syrup, butter, fresh fruits, or toppings of your choice.</li>
+
+        </ol>
+    </section>
+    <style>
+    table{
+        border-collapse: collapse;
+        }
+        tr:hover
+        {
+        border-bottom: 2px solid mediumturquoise;
+        }
+        table,th,td{
+        border:2px solid black;
+        border-color: brown;
+        border-style: groove ;    
+        } 
+        table{
+        border-spacing: 10 px;
+        }
+        th,td{
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 20px; 
+        padding-bottom: 20px ;     
+        }
+        </style>
+
+    <section class="nutrition">
+        <h2 style="color: blueviolet;">Nutrition Facts</h2>
+        <table>
+            <tr>
+                <th>Nutrients Name</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>300kcal</td>
+                <tr>
+                <td>Protein</td>
+                <td>7g</td>
+                </tr>
+                <tr>
+                <td>Fat</td>
+                <td>15g</td>
+                </tr>
+				<tr>
+                <td>Sodium</td>
+                <td>250mg</td>
+                </tr>
+				<tr>
+                <td>Sugar</td>
+                <td>5mg</td>
+                </tr>
+                <tr>
+                <td>Carbohydrate</td>
+                <td>35g</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+<button onclick="popup.showModal()">Order Now</button>
+<dialog id="popup">
+    <h2>Your Order </h2>
+    <p style="color:red">Will be ready soon</p>
+    <button onclick="popup.close()">Close</button>
+</dialog>	
+</body>
+</html>

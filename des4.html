@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>dessert4</title>
+</head>
+<h2 style="color: blueviolet;" >Ingredients</h2>
+        <ul>
+            <li>1 cup (125g) all-purpose flour (sifted)</li>
+			<li>1 teaspoon baking powder</li>
+			<li>4 large eggs (room temperature)</li>
+			<li>3/4 cup (150g) granulated sugar</li>
+			<li>1 teaspoon vanilla extract</li>
+			<li>1/4 cup (60ml) milk (warm)</li>
+			<li>1/4 cup (60g) unsalted butter (melted)</li>
+			<li>Pinch of salt</li>
+        </ul>
+    
+        <h2  style="color: blueviolet;">Instructions</h2>
+        <ol>
+            <li>Preheat the oven to 350°F (175°C). Grease and line an 8-inch (20 cm) cake pan with parchment paper.</li>
+			<li>Sift dry ingredients: In a bowl, sift the flour, baking powder, and salt together. Set aside.</li>
+			<li>Whisk eggs & sugar: In a separate large bowl, beat the eggs and sugar with an electric mixer for about 5 minutes until the mixture is pale, thick, and fluffy.</li>
+			<li>Add vanilla: Stir in the vanilla extract.</li>
+			<li>Fold in dry ingredients: Gently fold in the sifted flour mixture in batches using a spatula, being careful not to deflate the batter.</li>
+			<li>Add milk & butter: Mix the warm milk and melted butter together, then gently fold it into the batter.</li>
+			<li>Bake: Pour the batter into the prepared pan and bake for 25-30 minutes or until a toothpick inserted in the center comes out clean.</li>
+			<li>Cool & serve: Let the cake cool in the pan for 10 minutes, then transfer to a wire rack to cool completely before slicing or frosting.</li>
+
+        </ol>
+    </section>
+    <style>
+    table{
+        border-collapse: collapse;
+        }
+        tr:hover
+        {
+        border-bottom: 2px solid mediumturquoise;
+        }
+        table,th,td{
+        border:2px solid black;
+        border-color: brown;
+        border-style: groove ;    
+        } 
+        table{
+        border-spacing: 10 px;
+        }
+        th,td{
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 20px; 
+        padding-bottom: 20px ;     
+        }
+        </style>
+
+    <section class="nutrition">
+        <h2 style="color: blueviolet;">Nutrition Facts</h2>
+        <table>
+            <tr>
+                <th>Nutrients Name</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>180kcal</td>
+                <tr>
+                <td>Protein</td>
+                <td>4g</td>
+                </tr>
+                <tr>
+                <td>Fat</td>
+                <td>7g</td>
+                </tr>
+				<tr>
+                <td>Sodium</td>
+                <td>80mg</td>
+                </tr>
+				<tr>
+                <td>Sugar</td>
+                <td>15mg</td>
+                </tr>
+                <tr>
+                <td>Carbohydrate</td>
+                <td>25g</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+<button onclick="popup.showModal()">Order Now</button>
+<dialog id="popup">
+    <h2>Your Order </h2>
+    <p style="color:red">Will be ready soon</p>
+    <button onclick="popup.close()">Close</button>
+</dialog>	
+</body>
+</html>

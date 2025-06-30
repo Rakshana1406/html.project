@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>starter1</title>
+</head>
+<h2 style="color: blueviolet;" >Ingredients</h2>
+        <ul>
+            <li>1 tablespoon whole black peppercorns (crushed slightly)</li>
+			<li>1 tablespoon butter</li>
+			<li>1 tablespoon olive oil</li>
+			<li>1 shallot (finely chopped)</li>
+			<li>1/2 cup beef or vegetable broth</li>
+			<li>1/2 cup heavy cream</li>
+			<li>1/4 cup brandy or cognac (optional)</li>
+			<li>1 teaspoon Dijon mustard</li>
+			<li>Salt to taste</li>
+        </ul>
+    
+        <h2  style="color: blueviolet;">Instructions</h2>
+        <ol>
+            <li>Crush the Peppercorns – Use a mortar and pestle or the back of a spoon to slightly crush the peppercorns.</li>
+			<li>Sauté the Shallots – In a pan, heat butter and olive oil over medium heat. Add chopped shallots and cook until translucent.</li>
+			<li>Deglaze with Brandy (Optional) – Pour in the brandy or cognac and let it cook for about 1-2 minutes until the alcohol evaporates.</li>
+			<li>Add Broth & Simmer – Stir in the broth and let it reduce slightly for about 3 minutes.</li>
+			<li>Incorporate Cream & Mustard – Reduce the heat and add heavy cream and Dijon mustard. Stir well and let the sauce thicken.</li>
+			<li>Season & Serve – Add salt to taste and simmer for another 2 minutes. Remove from heat and serve over steak, chicken, or roasted vegetables.</li>
+
+        </ol>
+    </section>
+    <style>
+    table{
+        border-collapse: collapse;
+        }
+        tr:hover
+        {
+        border-bottom: 2px solid mediumturquoise;
+        }
+        table,th,td{
+        border:2px solid black;
+        border-color: brown;
+        border-style: groove ;    
+        } 
+        table{
+        border-spacing: 10 px;
+        }
+        th,td{
+        padding-left: 15px; 
+        padding-right: 15px;
+        padding-top: 20px; 
+        padding-bottom: 20px ;     
+        }
+        </style>
+
+    <section class="nutrition">
+        <h2 style="color: blueviolet;">Nutrition Facts</h2>
+        <table>
+            <tr>
+                <th>Nutrients Name</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Calories</td>
+                <td>150kcal</td>
+                <tr>
+                <td>Protein</td>
+                <td>1g</td>
+                </tr>
+                <tr>
+                <td>Fat</td>
+                <td>14g</td>
+                </tr>
+				<tr>
+                <td>Sodium</td>
+                <td>150mg</td>
+                </tr>
+				<tr>
+                <td>Cholesterol</td>
+                <td>40mg</td>
+                </tr>
+                <tr>
+                <td>Carbohydrate</td>
+                <td>3g</td>
+                </tr>
+            </tr>
+        </table>
+    </section>
+<button onclick="popup.showModal()">Order Now</button>
+<dialog id="popup">
+    <h2>Your Order </h2>
+    <p style="color:red">Will be ready soon</p>
+    <button onclick="popup.close()">Close</button>
+</dialog>	
+</body>
+</html>
